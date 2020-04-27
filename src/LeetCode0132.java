@@ -3,7 +3,7 @@ import java.util.List;
 
 public class LeetCode0132 {
     int[] cut = {Integer.MAX_VALUE};
-    public int minCun(String s) {
+    public int minCut(String s) {
         backtrack(s, 0, new ArrayList<>());
         return cut[0];
     }
