@@ -57,7 +57,7 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        System.out.println(leetCode0132.minCun("aab"));
+        System.out.println(leetCode0132.minCut("aa"));
 
 
 
