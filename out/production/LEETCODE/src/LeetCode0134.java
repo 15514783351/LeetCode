@@ -14,7 +14,7 @@ public class LeetCode0134 {
                 int presentOil = 0;
                 for (int j = i; j < i + m; j++) {
                     presentOil += two_gas[j] - two_cost[j];
-                    if (presentOil < 0) break f;
+                    if (presentOil < 0) continue f;
                 }
                 return i;
             }
