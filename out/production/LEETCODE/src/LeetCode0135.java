@@ -18,7 +18,7 @@ public class LeetCode0135 {
         }
 
         for (int i = m - 1; i > 0; i--) {
-            if (ratings[i] < ratings[i - 1]) ratingsLeft[i - 1] = ratingsLeft[i] + 1;
+            if (ratings[i] < ratings[i - 1]) ratingsRight[i - 1] = ratingsRight[i] + 1;
         }
 
         for (int i = 0; i < m; i++) {
