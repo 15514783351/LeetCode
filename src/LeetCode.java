@@ -39,7 +39,7 @@ public class LeetCode {
 //        LeetCode0094 leetCode0094 = new LeetCode0094();
 //        System.out.println(leetCode0094.inorderTraversal(t1));
 
-        LeetCode0137 leetCode0137 = new LeetCode0137();
+        LeetCode0139 leetCode0139 = new LeetCode0139();
         TreeNode p = new TreeNode(1);
         p.left = new TreeNode(3);
         p.right = new TreeNode(3);
@@ -58,7 +58,14 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        System.out.println(leetCode0137.singleNumber(gas));
+        String s = "catsanddog";
+        List<String> wordDict = new ArrayList<>();
+        wordDict.add("cats");
+        wordDict.add("dog");
+        wordDict.add("sand");
+        wordDict.add("and");
+        wordDict.add("cat");
+        System.out.println(leetCode0139.wordBreak(s, wordDict));
     }
 
 }
