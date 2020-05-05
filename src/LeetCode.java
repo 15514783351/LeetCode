@@ -39,7 +39,7 @@ public class LeetCode {
 //        LeetCode0094 leetCode0094 = new LeetCode0094();
 //        System.out.println(leetCode0094.inorderTraversal(t1));
 
-        LeetCode0139 leetCode0139 = new LeetCode0139();
+        LeetCode0140 leetCode0140 = new LeetCode0140();
         TreeNode p = new TreeNode(1);
         p.left = new TreeNode(3);
         p.right = new TreeNode(3);
@@ -65,7 +65,7 @@ public class LeetCode {
         wordDict.add("sand");
         wordDict.add("and");
         wordDict.add("cat");
-        System.out.println(leetCode0139.wordBreak(s, wordDict));
+        System.out.println(leetCode0140.wordBreak(s, wordDict));
     }
 
 }
