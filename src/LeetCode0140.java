@@ -5,6 +5,7 @@ public class LeetCode0140 {
     // 回溯法 超出时间限制
     public List<List<String>> output = new ArrayList<>();
     public List<String> wordBreak(String s, List<String> wordDict) {
+        if (!isWordBreak(s, wordDict)) return new ArrayList<>();
         backtrack(0, s, wordDict, new ArrayList<>());
         List<String> res = new ArrayList<>();
         for (List<String> combination: output) {
@@ -18,6 +19,20 @@ public class LeetCode0140 {
 //        System.out.println(output);
         return res;
     }
+
+    private boolean isWordBreak(String s, List<String> wordDict) {
+        int length = s.length();
+        boolean[] dp = new boolean[length + 1];
+        dp[0] = true;
+        for (int i = 0; i < length; i++) {
+            for (int j = i + 1; j < length + 1; j++) {
+                if (dp[i] && wordDict.contains(s.substring(i, j))) dp[j] = true;
+                if (dp[length]) return true;
+            }
+        }
+        return dp[length];
+    }
+
 
     private void backtrack(int start, String s, List<String> wordDict, List<String> combination) {
         if (start == s.length()) {
