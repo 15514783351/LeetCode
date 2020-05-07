@@ -1,4 +1,4 @@
-public class LeetCode141 {
+public class LeetCode0141 {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) return false;
         ListNode slow = head;
