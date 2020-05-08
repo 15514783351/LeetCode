@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="" />
+    <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0143.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,6 +170,10 @@
       <workItem from="1588400773752" duration="914000" />
       <workItem from="1588473424267" duration="2221000" />
       <workItem from="1588591428507" duration="1002000" />
+      <workItem from="1588640665071" duration="2640000" />
+      <workItem from="1588735604710" duration="763000" />
+      <workItem from="1588851424817" duration="1822000" />
+      <workItem from="1588938942835" duration="2125000" />
     </task>
     <servers />
   </component>
@@ -206,22 +213,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="309" y="137" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1585571592026" />
-    <state width="1238" height="153" key="GridCell.Tab.0.bottom" timestamp="1588592431134">
+    <state width="1238" height="153" key="GridCell.Tab.0.bottom" timestamp="1588676385508">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588592431134" />
-    <state width="1238" height="153" key="GridCell.Tab.0.center" timestamp="1588592431134">
+    <state width="1238" height="153" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
+    <state width="1238" height="153" key="GridCell.Tab.0.center" timestamp="1588676385508">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588592431134" />
-    <state width="1238" height="153" key="GridCell.Tab.0.left" timestamp="1588592431133">
+    <state width="1238" height="153" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
+    <state width="1238" height="153" key="GridCell.Tab.0.left" timestamp="1588676385508">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588592431133" />
-    <state width="1238" height="153" key="GridCell.Tab.0.right" timestamp="1588592431134">
+    <state width="1238" height="153" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
+    <state width="1238" height="153" key="GridCell.Tab.0.right" timestamp="1588676385508">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588592431134" />
+    <state width="1238" height="153" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
     <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1588476279508">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -295,11 +302,6 @@
           <url>file://$PROJECT_DIR$/src/LeetCode0086.java</url>
           <line>27</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LeetCode0076.java</url>

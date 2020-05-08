@@ -17,19 +17,25 @@ public class LeetCode {
 //        int[] h = {3, 1, 3, 2, 2};
 //        System.out.println(leetCode0085.maximalRectangle(heights));
 //        System.out.println(leetCode0085.largestRectangleArea(h));
-//        ListNode l = new ListNode(4);
-//        ListNode p = l;
-//        p.next  =new ListNode(3);
+        ListNode l = new ListNode(1);
+        ListNode p = l;
+        p.next = new ListNode(2);
+        p = p.next;
+        p.next = new ListNode(3);
+        p = p.next;
+        p.next = new ListNode(4);
+        p = p.next;
+        p.next = new ListNode(5);
 //        p = p.next;
-//        p.next  =new ListNode(2);
+//        p.next = new ListNode(6);
 //        p = p.next;
-//        p.next  =new ListNode(4);
+//        p.next = new ListNode(7);
 //        p = p.next;
-//        p.next  =new ListNode(2);
+//        p.next = new ListNode(2);
 //        p = p.next;
-//        p.next  =new ListNode(1);
+//        p.next = new ListNode(1);
 //        p = p.next;
-//        p.next  =new ListNode(4);
+//        p.next = new ListNode(4);
 //        p = p.next;
 //        TreeNode t1 = new TreeNode(1);
 //        TreeNode t2 = new TreeNode(2);
@@ -39,14 +45,7 @@ public class LeetCode {
 //        LeetCode0094 leetCode0094 = new LeetCode0094();
 //        System.out.println(leetCode0094.inorderTraversal(t1));
 
-        LeetCode0140 leetCode0140 = new LeetCode0140();
-        TreeNode p = new TreeNode(1);
-        p.left = new TreeNode(3);
-        p.right = new TreeNode(3);
-
-        TreeNode q = new TreeNode(1);
-        q.left = new TreeNode(2);
-        q.right = new TreeNode(3);
+//        LeetCode0140 leetCode0140 = new LeetCode0140();
 
 
         int[] gas = {2, 2, 2, 3};
@@ -57,14 +56,9 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        String s = "catsanddog";
-        List<String> wordDict = new ArrayList<>();
-        wordDict.add("cats");
-        wordDict.add("dog");
-        wordDict.add("sand");
-        wordDict.add("and");
-        wordDict.add("cat");
-        System.out.println(leetCode0140.wordBreak(s, wordDict));
+        LeetCode0143 leetCode0143 = new LeetCode0143();
+        leetCode0143.reorderList(l);
+        System.out.println(l.next.val);
     }
 
 }
