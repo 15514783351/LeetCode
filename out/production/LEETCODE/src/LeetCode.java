@@ -37,11 +37,12 @@ public class LeetCode {
 //        p = p.next;
 //        p.next = new ListNode(4);
 //        p = p.next;
-//        TreeNode t1 = new TreeNode(1);
-//        TreeNode t2 = new TreeNode(2);
-//        TreeNode t3 = new TreeNode(3);
-//        t1.right = t2;
-//        t2.right = t3;
+        TreeNode t1 = new TreeNode(1);
+        TreeNode t2 = new TreeNode(2);
+        TreeNode t3 = new TreeNode(3);
+        t2.left = new TreeNode(4);
+        t1.right = t2;
+        t1.left = t3;
 //        LeetCode0094 leetCode0094 = new LeetCode0094();
 //        System.out.println(leetCode0094.inorderTraversal(t1));
 
@@ -56,9 +57,9 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        LeetCode0143 leetCode0143 = new LeetCode0143();
-        leetCode0143.reorderList(l);
-        System.out.println(l.next.val);
+        LeetCode0144 leetCode0144 = new LeetCode0144();
+        System.out.println(leetCode0144.preorderTraversal(t1));
+
     }
 
 }

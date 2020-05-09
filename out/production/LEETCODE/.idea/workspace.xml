@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0144.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,8 @@
       <workItem from="1588640665071" duration="2640000" />
       <workItem from="1588735604710" duration="763000" />
       <workItem from="1588851424817" duration="1822000" />
-      <workItem from="1588938942835" duration="2125000" />
+      <workItem from="1588938942835" duration="6522000" />
+      <workItem from="1589015109349" duration="719000" />
     </task>
     <servers />
   </component>
@@ -213,46 +214,46 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="309" y="137" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1585571592026" />
-    <state width="1238" height="153" key="GridCell.Tab.0.bottom" timestamp="1588676385508">
+    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
-    <state width="1238" height="153" key="GridCell.Tab.0.center" timestamp="1588676385508">
+    <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
-    <state width="1238" height="153" key="GridCell.Tab.0.left" timestamp="1588676385508">
+    <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
-    <state width="1238" height="153" key="GridCell.Tab.0.right" timestamp="1588676385508">
+    <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588676385508" />
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1588476279508">
+    <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588476279508" />
-    <state width="1238" height="192" key="GridCell.Tab.1.center" timestamp="1588476279507">
+    <state width="1238" height="192" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="192" key="GridCell.Tab.1.center" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1588476279507" />
-    <state width="1238" height="192" key="GridCell.Tab.1.left" timestamp="1588476279507">
+    <state width="1238" height="192" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="192" key="GridCell.Tab.1.left" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1588476279507" />
-    <state width="1238" height="192" key="GridCell.Tab.1.right" timestamp="1588476279508">
+    <state width="1238" height="192" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="192" key="GridCell.Tab.1.right" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1588476279508" />
+    <state width="1238" height="192" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
     <state x="84" y="0" key="SettingsEditor" timestamp="1587213859380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="84" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1587213859380" />
-    <state x="325" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1588400788189">
+    <state x="325" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1589015111247">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="325" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1588400788189" />
+    <state x="325" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589015111247" />
     <state x="293" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586005699577">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -325,6 +326,7 @@
       <configuration name="Application">
         <watch expression="para[0]" />
         <watch expression="res" />
+        <watch expression="last" />
       </configuration>
     </watches-manager>
   </component>
