@@ -57,8 +57,8 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        LeetCode0144 leetCode0144 = new LeetCode0144();
-        System.out.println(leetCode0144.preorderTraversal(t1));
+        LeetCode0145 leetCode0145 = new LeetCode0145();
+        System.out.println(leetCode0145.postorderTraversal(t1));
 
     }
 

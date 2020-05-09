@@ -13,7 +13,7 @@ public class LeetCode0144 {
 //        return output;
 //    }
     public List<Integer> preorderTraversal(TreeNode root) {
-//        if (root == null) return output;
+        if (root == null) return output;
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.isEmpty()) {
