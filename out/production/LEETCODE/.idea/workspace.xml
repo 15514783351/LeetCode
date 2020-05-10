@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0146.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,12 +174,23 @@
       <workItem from="1588735604710" duration="763000" />
       <workItem from="1588851424817" duration="1822000" />
       <workItem from="1588938942835" duration="6522000" />
-      <workItem from="1589015109349" duration="719000" />
+      <workItem from="1589015109349" duration="5149000" />
+      <workItem from="1589109444940" duration="5298000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="284" y="50" key="#Project_Structure" timestamp="1583409413261">
@@ -210,26 +221,30 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="428" height="466" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1588077486967" />
+    <state x="93" y="93" width="1093" height="573" key="DiffContextDialog" timestamp="1589113114233">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="93" y="93" width="1093" height="573" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1589113114233" />
     <state x="309" y="137" key="FileChooserDialogImpl" timestamp="1585571592026">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="309" y="137" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1585571592026" />
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1588945893390">
+    <state width="1238" height="153" key="GridCell.Tab.0.bottom" timestamp="1589027574490">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
-    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1588945893390">
+    <state width="1238" height="153" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589027574490" />
+    <state width="1238" height="153" key="GridCell.Tab.0.center" timestamp="1589027574490">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
-    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1588945893390">
+    <state width="1238" height="153" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589027574490" />
+    <state width="1238" height="153" key="GridCell.Tab.0.left" timestamp="1589027574490">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
-    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1588945893390">
+    <state width="1238" height="153" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589027574490" />
+    <state width="1238" height="153" key="GridCell.Tab.0.right" timestamp="1589027574490">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state width="1238" height="153" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589027574490" />
     <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1588945893390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -246,6 +261,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="192" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1588945893390" />
+    <state x="466" y="91" key="RollbackChangesDialog" timestamp="1589110429495">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="466" y="91" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1589110429495" />
     <state x="84" y="0" key="SettingsEditor" timestamp="1587213859380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
