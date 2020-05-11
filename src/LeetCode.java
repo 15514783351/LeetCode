@@ -17,15 +17,15 @@ public class LeetCode {
 //        int[] h = {3, 1, 3, 2, 2};
 //        System.out.println(leetCode0085.maximalRectangle(heights));
 //        System.out.println(leetCode0085.largestRectangleArea(h));
-        ListNode l = new ListNode(1);
+        ListNode l = new ListNode(2);
         ListNode p = l;
-        p.next = new ListNode(2);
+        p.next = new ListNode(1);
         p = p.next;
         p.next = new ListNode(3);
         p = p.next;
         p.next = new ListNode(4);
         p = p.next;
-        p.next = new ListNode(5);
+        p.next = new ListNode(0);
 //        p = p.next;
 //        p.next = new ListNode(6);
 //        p = p.next;
@@ -57,11 +57,9 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        LeetCode0146 leetCode0146 = new LeetCode0146();
-        LeetCode0146.LRUCache obj  = new LeetCode0146.LRUCache(2);
-        obj.put(1, 1);
-        obj.put(2, 2);
-        System.out.println(obj.get(1));
+        LeetCode0147 leetCode0147 = new LeetCode0147();
+        ListNode head  = leetCode0147.insertionSortList(l);
+        System.out.println(head);
 
 
     }

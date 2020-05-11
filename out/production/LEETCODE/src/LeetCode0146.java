@@ -2,6 +2,9 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+//LeetCode0146 leetCode0146 = new LeetCode0146();
+//LeetCode0146.LRUCache obj  = new LeetCode0146.LRUCache(2);
+
 public class LeetCode0146 {
     static class LRUCache {
         private int capacity;
