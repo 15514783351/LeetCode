@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0147.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
+    <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/LeetCode0148.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode0148.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,64 +20,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\004JavaProject\test\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1YfANVfYcNdFQD0fMTCCqGqwaIV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="1bnbDco8retiC0ZlBNhCvGP81BF" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../community/community" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode" />
-      <module name="LEETCODE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode0076" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0076" />
-      <module name="LEETCODE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode0077" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0077" />
-      <module name="LEETCODE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="m" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="m" />
-      <module name="LEETCODE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices" />
       <module name="LEETCODE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,10 +53,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LeetCode" />
-        <item itemvalue="Application.practices" />
-        <item itemvalue="Application.m" />
-        <item itemvalue="Application.LeetCode0077" />
-        <item itemvalue="Application.LeetCode0076" />
       </list>
     </recent_temporary>
   </component>
@@ -98,261 +61,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="" />
-      <created>1583323235426</created>
+      <changelist id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="" />
+      <created>1589270685354</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583323235426</updated>
-      <workItem from="1583323239952" duration="3738000" />
-      <workItem from="1583379321058" duration="756000" />
-      <workItem from="1583406798453" duration="1815000" />
-      <workItem from="1583409502720" duration="4803000" />
-      <workItem from="1583492863421" duration="7898000" />
-      <workItem from="1583580220568" duration="8489000" />
-      <workItem from="1583629503762" duration="3104000" />
-      <workItem from="1583720420244" duration="23987000" />
-      <workItem from="1583806325972" duration="27971000" />
-      <workItem from="1583885744660" duration="3396000" />
-      <workItem from="1583926058502" duration="8095000" />
-      <workItem from="1583977265362" duration="3933000" />
-      <workItem from="1584014459770" duration="4506000" />
-      <workItem from="1584105909439" duration="1048000" />
-      <workItem from="1584146339003" duration="1708000" />
-      <workItem from="1584154476614" duration="3045000" />
-      <workItem from="1584186606482" duration="629000" />
-      <workItem from="1584229999551" duration="612000" />
-      <workItem from="1584272567751" duration="694000" />
-      <workItem from="1584324175188" duration="636000" />
-      <workItem from="1584412493625" duration="5261000" />
-      <workItem from="1584705942858" duration="2690000" />
-      <workItem from="1584793363159" duration="6419000" />
-      <workItem from="1584839489447" duration="3952000" />
-      <workItem from="1584877187616" duration="7205000" />
-      <workItem from="1584927855442" duration="4221000" />
-      <workItem from="1585013691618" duration="11333000" />
-      <workItem from="1585273815120" duration="1421000" />
-      <workItem from="1585275366410" duration="683000" />
-      <workItem from="1585386024197" duration="2688000" />
-      <workItem from="1585445202501" duration="2522000" />
-      <workItem from="1585531561974" duration="79000" />
-      <workItem from="1585558227397" duration="237000" />
-      <workItem from="1585567867847" duration="3129000" />
-      <workItem from="1585741096612" duration="7480000" />
-      <workItem from="1585832846403" duration="2821000" />
-      <workItem from="1586003629213" duration="4321000" />
-      <workItem from="1586262196336" duration="3743000" />
-      <workItem from="1586351668807" duration="19000" />
-      <workItem from="1586521531510" duration="4271000" />
-      <workItem from="1586605470660" duration="18000" />
-      <workItem from="1586784710464" duration="1443000" />
-      <workItem from="1586865712405" duration="21000" />
-      <workItem from="1586871073505" duration="1101000" />
-      <workItem from="1586916461402" duration="6633000" />
-      <workItem from="1586935001692" duration="5079000" />
-      <workItem from="1586952022901" duration="43000" />
-      <workItem from="1587122642308" duration="3969000" />
-      <workItem from="1587209388326" duration="3907000" />
-      <workItem from="1587296045344" duration="6251000" />
-      <workItem from="1587381744125" duration="1768000" />
-      <workItem from="1587642561123" duration="2384000" />
-      <workItem from="1587645264566" duration="17000" />
-      <workItem from="1587728530891" duration="3575000" />
-      <workItem from="1587734857664" duration="17000" />
-      <workItem from="1587815228616" duration="3207000" />
-      <workItem from="1587819944732" duration="2253000" />
-      <workItem from="1587868163774" duration="3707000" />
-      <workItem from="1587986206124" duration="6643000" />
-      <workItem from="1588036385421" duration="5803000" />
-      <workItem from="1588122076321" duration="4387000" />
-      <workItem from="1588166504416" duration="2312000" />
-      <workItem from="1588209581238" duration="3894000" />
-      <workItem from="1588253626987" duration="1694000" />
-      <workItem from="1588400773752" duration="914000" />
-      <workItem from="1588473424267" duration="2221000" />
-      <workItem from="1588591428507" duration="1002000" />
-      <workItem from="1588640665071" duration="2640000" />
-      <workItem from="1588735604710" duration="763000" />
-      <workItem from="1588851424817" duration="1822000" />
-      <workItem from="1588938942835" duration="6522000" />
-      <workItem from="1589015109349" duration="5149000" />
-      <workItem from="1589109444940" duration="7275000" />
-      <workItem from="1589186637610" duration="2168000" />
+      <updated>1589270685354</updated>
+      <workItem from="1589270686731" duration="5724000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="284" y="50" key="#Project_Structure" timestamp="1583409413261">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="284" y="50" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1583409413261" />
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583984200795">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.760@0.0.1280.760" timestamp="1583984200795" />
-    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583414154882">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1583414154882" />
-    <state x="371" y="127" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1585445571239">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="371" y="127" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.760@0.0.1280.760" timestamp="1585445571239" />
-    <state x="667" y="96" key="#xdebugger.evaluate" timestamp="1588077504003">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="667" y="96" key="#xdebugger.evaluate/0.0.1280.760@0.0.1280.760" timestamp="1588077504003" />
-    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1587990937453">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1587990937453" />
-    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1588077486967">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="428" height="466" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1588077486967" />
-    <state x="93" y="93" width="1093" height="573" key="DiffContextDialog" timestamp="1589113114233">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="93" y="93" width="1093" height="573" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1589113114233" />
-    <state x="309" y="137" key="FileChooserDialogImpl" timestamp="1585571592026">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="309" y="137" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1585571592026" />
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state width="1238" height="192" key="GridCell.Tab.1.center" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state width="1238" height="192" key="GridCell.Tab.1.left" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state width="1238" height="192" key="GridCell.Tab.1.right" timestamp="1589117454758">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589117454758" />
-    <state x="466" y="91" key="RollbackChangesDialog" timestamp="1589110429495">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="466" y="91" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1589110429495" />
-    <state x="84" y="0" key="SettingsEditor" timestamp="1587213859380">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="84" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1587213859380" />
-    <state x="325" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1589186871709">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="325" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589186871709" />
-    <state x="293" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586005699577">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="293" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.760@0.0.1280.760" timestamp="1586005699577" />
-    <state x="6" y="0" key="new project wizard" timestamp="1584156842645">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="6" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1584156842645" />
-    <state x="247" y="177" key="run.anything.popup" timestamp="1586921861002">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="247" y="177" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1586921861002" />
-    <state x="304" y="83" width="672" height="678" key="search.everywhere.popup" timestamp="1589116551117">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="304" y="83" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1589116551117" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode0076.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode0077.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/m.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/m.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode0086.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode0086.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode0147.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LeetCode0076.java</url>
-          <line>1</line>
-          <properties class="LeetCode0076" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LeetCode0077.java</url>
-          <line>7</line>
-          <properties class="LeetCode0077">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="para[0]" />
-        <watch expression="res" />
-        <watch expression="last" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
