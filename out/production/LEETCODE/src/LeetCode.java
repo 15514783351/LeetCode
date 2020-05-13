@@ -55,9 +55,8 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        LeetCode0148 leetCode0148 = new LeetCode0148();
-        ListNode head  = leetCode0148.sortList(l);
-        System.out.println(head);
+        LeetCode0149 leetCode0149 = new LeetCode0149();
+        for (int i: leetCode0149.getLine(new int[]{1, 2}, new int[]{4, 4})) System.out.println(i);
 
 
     }

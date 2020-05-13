@@ -6,6 +6,7 @@
  * 2020/5/12 16:07   戴宗明       1.0         None
  */
 
+//排序链表
 
 public class LeetCode0148 {
     public ListNode sortList(ListNode head) {
@@ -29,7 +30,7 @@ public class LeetCode0148 {
                 curr = splitListNode(right, i);
                 prev.next = mergeListNode(left, right);
 
-                if (prev.next != null) prev = prev.next;
+                while (prev.next != null) prev = prev.next;
             }
         }
         return dummy.next;
