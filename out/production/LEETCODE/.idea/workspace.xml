@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LeetCode0149.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode0149.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode0150.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode0150.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,8 @@
       <workItem from="1589335731423" duration="199000" />
       <workItem from="1589336598187" duration="2299000" />
       <workItem from="1589368876036" duration="4414000" />
-      <workItem from="1589421511217" duration="988000" />
+      <workItem from="1589421511217" duration="3966000" />
+      <workItem from="1589454792726" duration="1852000" />
     </task>
     <servers />
   </component>
@@ -89,5 +91,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
