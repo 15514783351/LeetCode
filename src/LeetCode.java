@@ -56,8 +56,8 @@ public class LeetCode {
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
         LeetCode0149 leetCode0149 = new LeetCode0149();
-        for (int i: leetCode0149.getLine(new int[]{1, 2}, new int[]{4, 4})) System.out.println(i);
-
+        for (float i: leetCode0149.getLine(new int[]{1, 2}, new int[]{4, 4})) System.out.println(i);
+//        System.out.println((float)(2/ 3));
 
     }
 
