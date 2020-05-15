@@ -1,9 +1,6 @@
 import com.sun.source.tree.Tree;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
+import java.util.*;
 
 public class LeetCode {
     public static void main(String[] args) {
@@ -50,26 +47,23 @@ public class LeetCode {
         int[] gas = {2, 2, 2, 3};
         int[] cost = {1, 2, 87, 87, 87, 2, 1};
 
-        char[][] board = {{'X', 'X', 'X', 'X', 'X'},
-                {'X', 'X', 'X', 'X', 'X'},
-                {'X', 'X', 'O', 'X', 'X'},
-                {'X', 'X', 'O', 'O', 'O'},
-                {'X', 'X', 'O', 'O', 'X'}};
+        char[][] board = {{'1', '1', '1', '1', '0'},
+                {'1', '1', '0', '1', '0'},
+                {'1', '1', 'O', '0', '0'},
+                {'1', '1', 'O', 'O', 'O'},
+                {'0', '0', 'O', 'O', '0'}};
 //        LeetCode0150 leetCode0150 = new LeetCode0150();
 //        System.out.println(leetCode0150.evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}));
 
 //        System.out.println((float)(2/ 3));
-        MyCircularQueue myCircularQueue = new MyCircularQueue(3);
-        myCircularQueue.enQueue(1);
-        myCircularQueue.enQueue(2);
-        myCircularQueue.enQueue(3);
-        myCircularQueue.enQueue(4);
-//        System.out.println(myCircularQueue.queue[2]);
-        System.out.println(myCircularQueue.Rear());
-        System.out.println(myCircularQueue.isFull());
-        myCircularQueue.deQueue();
-        myCircularQueue.enQueue(4);
-        System.out.println(myCircularQueue.Rear());
+        NumOfIsland numOfIsland = new NumOfIsland();
+        System.out.println(numOfIsland.numIslands(board));
+        List<int[]> list = new ArrayList<>();
+        int[] a = new int[]{1, 1};
+        int[] b = new int[]{1, 1};
+        list.add(a);
+        System.out.println(Arrays.equals(a, b));
+        System.out.println(list.contains(a));
     }
 
 }
