@@ -55,11 +55,21 @@ public class LeetCode {
                 {'X', 'X', 'O', 'X', 'X'},
                 {'X', 'X', 'O', 'O', 'O'},
                 {'X', 'X', 'O', 'O', 'X'}};
-        LeetCode0150 leetCode0150 = new LeetCode0150();
-        System.out.println(leetCode0150.evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}));
+//        LeetCode0150 leetCode0150 = new LeetCode0150();
+//        System.out.println(leetCode0150.evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}));
 
 //        System.out.println((float)(2/ 3));
-
+        MyCircularQueue myCircularQueue = new MyCircularQueue(3);
+        myCircularQueue.enQueue(1);
+        myCircularQueue.enQueue(2);
+        myCircularQueue.enQueue(3);
+        myCircularQueue.enQueue(4);
+//        System.out.println(myCircularQueue.queue[2]);
+        System.out.println(myCircularQueue.Rear());
+        System.out.println(myCircularQueue.isFull());
+        myCircularQueue.deQueue();
+        myCircularQueue.enQueue(4);
+        System.out.println(myCircularQueue.Rear());
     }
 
 }
