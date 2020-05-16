@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OpenLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE/LeetCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE/LeetCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE/OpenLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE/src/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE/src/OpenLock.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OpenLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode752.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +92,7 @@
       <workItem from="1589421511217" duration="3966000" />
       <workItem from="1589454792726" duration="7393000" />
       <workItem from="1589503963626" duration="14301000" />
-      <workItem from="1589590656298" duration="5083000" />
+      <workItem from="1589590656298" duration="7667000" />
     </task>
     <servers />
   </component>
@@ -107,5 +111,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

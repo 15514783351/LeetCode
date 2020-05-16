@@ -1,7 +1,3 @@
-import com.sun.source.tree.Tree;
-
-import java.util.*;
-
 public class LeetCode {
     public static void main(String[] args) {
 
@@ -57,11 +53,11 @@ public class LeetCode {
 
 //        System.out.println((float)(2/ 3));
 //        System.out.println("0" * 3);
-        String[] deadends = {"8887","8889","8878","8898","8788","8988","7888","9888"};
-        String target = "8888";
+        String[] deadends = {"1131","1303","3113","0132","1301","1303","2200","0232","0020","2223"};
+        String target = "3312";
 
-        OpenLock openLock = new OpenLock();
-        System.out.println(openLock.openLock(deadends, target));
+        LeetCode752 leetCode752 = new LeetCode752();
+        System.out.println(leetCode752.openLock(deadends, target));
     }
 
 }
