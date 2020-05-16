@@ -56,14 +56,12 @@ public class LeetCode {
 //        System.out.println(leetCode0150.evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}));
 
 //        System.out.println((float)(2/ 3));
-        NumOfIsland numOfIsland = new NumOfIsland();
-        System.out.println(numOfIsland.numIslands(board));
-        List<int[]> list = new ArrayList<>();
-        int[] a = new int[]{1, 1};
-        int[] b = new int[]{1, 1};
-        list.add(a);
-        System.out.println(Arrays.equals(a, b));
-        System.out.println(list.contains(a));
+//        System.out.println("0" * 3);
+        String[] deadends = {"8887","8889","8878","8898","8788","8988","7888","9888"};
+        String target = "8888";
+
+        OpenLock openLock = new OpenLock();
+        System.out.println(openLock.openLock(deadends, target));
     }
 
 }
