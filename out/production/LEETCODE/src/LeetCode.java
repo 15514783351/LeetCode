@@ -56,8 +56,8 @@ public class LeetCode {
         String[] deadends = {"1131","1303","3113","0132","1301","1303","2200","0232","0020","2223"};
         String target = "3312";
 
-        LeetCode752 leetCode752 = new LeetCode752();
-        System.out.println(leetCode752.openLock(deadends, target));
+        LeetCode0279 leetCode0279 = new LeetCode0279();
+        System.out.println(leetCode0279.numSqures(16));
     }
 
 }
