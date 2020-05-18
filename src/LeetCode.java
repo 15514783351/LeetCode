@@ -48,16 +48,9 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-//        LeetCode0150 leetCode0150 = new LeetCode0150();
-//        System.out.println(leetCode0150.evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}));
+        LeetCode0150 leetCode0150 = new LeetCode0150();
+        System.out.println(leetCode0150.evalRPN(new String[]{"4","13","5","/","+"}));
 
-//        System.out.println((float)(2/ 3));
-//        System.out.println("0" * 3);
-        String[] deadends = {"1131","1303","3113","0132","1301","1303","2200","0232","0020","2223"};
-        String target = "3312";
-
-        LeetCode0020 leetCode0020 = new LeetCode0020();
-        System.out.println(leetCode0020.isValid("{{){"));
     }
 
 }

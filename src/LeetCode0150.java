@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Contact :   dzm_1995@163.com
@@ -53,28 +54,60 @@ public class LeetCode0150 {
 //
 //    }
     public int evalRPN(String[] tokens) {
-        int[] nums = new int[tokens.length];
-        int index = 0;
+//        int[] nums = new int[tokens.length];
+//        int index = 0;
+//        for (String token: tokens) {
+//            switch (token) {
+//                case "+":
+//                    nums[index - 2] += nums[--index];
+//                    break;
+//                case "-":
+//                    nums[index - 2] -= nums[--index];
+//                    break;
+//                case "*":
+//                    nums[index - 2] *= nums[--index];
+//                    break;
+//                case "/":
+//                    nums[index - 2] /= nums[--index];
+//                    break;
+//                default:
+//                    nums[index] = Integer.parseInt(token);
+//                    index++;
+//                    break;
+//            }
+//        }
+//        return nums[0];
+        Stack<Integer> stack = new Stack<>();
+        int num1, num2;
         for (String token: tokens) {
             switch (token) {
                 case "+":
-                    nums[index - 2] += nums[--index];
+                    num1 = stack.pop();
+                    num2 = stack.pop();
+                    stack.add(num1 + num2);
                     break;
                 case "-":
-                    nums[index - 2] -= nums[--index];
+                    num1 = stack.pop();
+                    num2 = stack.pop();
+                    stack.add(num2 - num1);
                     break;
                 case "*":
-                    nums[index - 2] *= nums[--index];
+                    num1 = stack.pop();
+                    num2 = stack.pop();
+                    stack.add(num1 * num2);
                     break;
                 case "/":
-                    nums[index - 2] /= nums[--index];
+                    num1 = stack.pop();
+                    num2 = stack.pop();
+                    stack.add(num2 / num1);
                     break;
                 default:
-                    nums[index] = Integer.parseInt(token);
-                    index++;
+                    stack.add(Integer.parseInt(token));
                     break;
             }
         }
-        return nums[0];
+
+
+        return stack.peek();
     }
 }
