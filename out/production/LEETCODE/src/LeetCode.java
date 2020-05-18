@@ -56,8 +56,14 @@ public class LeetCode {
         String[] deadends = {"1131","1303","3113","0132","1301","1303","2200","0232","0020","2223"};
         String target = "3312";
 
-        LeetCode0279 leetCode0279 = new LeetCode0279();
-        System.out.println(leetCode0279.numSqures(16));
+        MinStack minStack = new MinStack();
+        minStack.push(-2);
+        minStack.push(0);
+        minStack.push(-3);
+        System.out.println(minStack.getMin());
+        minStack.pop();
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
     }
 
 }
