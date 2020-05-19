@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+//中序遍历
 public class LeetCode0094 {
     List<Integer> res = new ArrayList<>();
     public List<Integer> inorderTraversal(TreeNode root) {
-        //回溯方法
-//        backtrack(root, res);
+        //回溯方法backtrack(root, res);
 
         // 使用栈的方法
         Stack<TreeNode> stack = new Stack<>();
