@@ -41,15 +41,15 @@ public class LeetCode {
 
 
         int[] gas = {2, 2, 2, 3};
-        int[] cost = {1, 2, 87, 87, 87, 2, 1};
+        int[] cost = {1, 1, 1, 1, 1};
 
         char[][] board = {{'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-        LeetCode0150 leetCode0150 = new LeetCode0150();
-        System.out.println(leetCode0150.evalRPN(new String[]{"4","13","5","/","+"}));
+        LeetCode0494 leetCode0494 = new LeetCode0494();
+        System.out.println(leetCode0494.findTargetSumWays(cost, 3));
 
     }
 

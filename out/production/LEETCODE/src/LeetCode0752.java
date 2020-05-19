@@ -9,7 +9,7 @@ import java.util.*;
  */
 
 //打开转盘锁
-public class LeetCode752 {
+public class LeetCode0752 {
     //为何超出时间限制
 //    public int openLock(String[] deadends, String target) {
 //        int step = 0;
