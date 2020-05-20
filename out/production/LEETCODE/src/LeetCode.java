@@ -48,12 +48,13 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-        LeetCode0232 leetCode0232 = new LeetCode0232();
-        leetCode0232.push(1);
-        leetCode0232.push(2);
-        System.out.println(leetCode0232.peek());
-        System.out.println(leetCode0232.pop());
-        System.out.println(leetCode0232.empty());
+        LeetCode0225 leetCode0225 = new LeetCode0225();
+        leetCode0225.push(1);
+        leetCode0225.push(2);
+        System.out.println(leetCode0225.pop());
+        System.out.println(leetCode0225.top());
+
+        System.out.println(leetCode0225.empty());
 
     }
 
