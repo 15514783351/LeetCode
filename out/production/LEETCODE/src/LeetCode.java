@@ -48,8 +48,12 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-        LeetCode0494 leetCode0494 = new LeetCode0494();
-        System.out.println(leetCode0494.findTargetSumWays(cost, 3));
+        LeetCode0232 leetCode0232 = new LeetCode0232();
+        leetCode0232.push(1);
+        leetCode0232.push(2);
+        System.out.println(leetCode0232.peek());
+        System.out.println(leetCode0232.pop());
+        System.out.println(leetCode0232.empty());
 
     }
 

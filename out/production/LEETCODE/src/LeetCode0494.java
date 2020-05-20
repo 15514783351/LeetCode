@@ -10,7 +10,7 @@ import java.util.List;
  * 2020/5/19 9:12   戴宗明       1.0         None
  */
 
-
+//目标和
 public class LeetCode0494 {
     private int step;
     public int findTargetSumWays(int[] nums, int S) {
@@ -30,13 +30,4 @@ public class LeetCode0494 {
             dfs(nums, target, sum - nums[start], start + 1);
         }
     }
-
-    private int getSum(List<Integer> nums) {
-        int sum = 0;
-        for (int num: nums)  {
-            sum +=num;
-        }
-        return sum;
-    }
-
 }
