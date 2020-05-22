@@ -50,7 +50,7 @@ public class LeetCode0394 {
                 res.append(c);
             }
         }
-        
+
         return res.toString();
 
     }

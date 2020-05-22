@@ -48,9 +48,17 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-        LeetCode0394 leetCode0394 = new LeetCode0394();
-        String s = "10[a2[c]]";
-        System.out.println(leetCode0394.decodeString(s));
+        int[][] image = {{0, 0, 0},
+                {0, 1, 1}};
+        LeetCode0733 leetCode0733 = new LeetCode0733();
+        leetCode0733.floodFill(image, 1, 1, 1);
+        for (int[] im: image) {
+            for (int i: im) {
+                System.out.print(i);
+                System.out.print(" ");
+            }
+            System.out.println("");
+        }
     }
 
 }
