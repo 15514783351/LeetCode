@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0232.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode0394.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode0394.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1bnbDco8retiC0ZlBNhCvGP81BF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,7 +108,9 @@
       <workItem from="1589714807378" duration="6557000" />
       <workItem from="1589770099812" duration="14483000" />
       <workItem from="1589849674040" duration="9714000" />
-      <workItem from="1589973234702" duration="895000" />
+      <workItem from="1589973234702" duration="5117000" />
+      <workItem from="1590066740868" duration="2890000" />
+      <workItem from="1590108412718" duration="2098000" />
     </task>
     <servers />
   </component>

@@ -48,14 +48,9 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-        LeetCode0225 leetCode0225 = new LeetCode0225();
-        leetCode0225.push(1);
-        leetCode0225.push(2);
-        System.out.println(leetCode0225.pop());
-        System.out.println(leetCode0225.top());
-
-        System.out.println(leetCode0225.empty());
-
+        LeetCode0394 leetCode0394 = new LeetCode0394();
+        String s = "10[a2[c]]";
+        System.out.println(leetCode0394.decodeString(s));
     }
 
 }
