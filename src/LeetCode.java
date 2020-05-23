@@ -49,10 +49,11 @@ public class LeetCode {
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
         int[][] image = {{0, 0, 0},
-                {0, 1, 1}};
-        LeetCode0733 leetCode0733 = new LeetCode0733();
-        leetCode0733.floodFill(image, 1, 1, 1);
-        for (int[] im: image) {
+                {0, 1, 0},
+                {1, 1, 1}};
+        LeetCode0572 leetCode0572 = new LeetCode0572();
+        int[][] res = leetCode0572.updateMatrix(image);
+        for (int[] im: res) {
             for (int i: im) {
                 System.out.print(i);
                 System.out.print(" ");
