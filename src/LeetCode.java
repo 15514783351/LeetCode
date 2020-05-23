@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class LeetCode {
     public static void main(String[] args) {
 
@@ -51,15 +54,25 @@ public class LeetCode {
         int[][] image = {{0, 0, 0},
                 {0, 1, 0},
                 {1, 1, 1}};
-        LeetCode0572 leetCode0572 = new LeetCode0572();
-        int[][] res = leetCode0572.updateMatrix(image);
-        for (int[] im: res) {
-            for (int i: im) {
-                System.out.print(i);
-                System.out.print(" ");
-            }
-            System.out.println("");
-        }
+        LeetCode0841 leetCode0841 = new LeetCode0841();
+        List<List<Integer>> rooms = new ArrayList<>();
+        List<Integer> room = new ArrayList<>();
+        room.add(1);
+//        room.add(3);
+        rooms.add(new ArrayList<>(room));
+        room.clear();
+//        room.add(3);
+//        room.add(0);
+        room.add(2);
+        rooms.add(new ArrayList<>(room));
+        room.clear();
+        room.add(3);
+        rooms.add(new ArrayList<>(room));
+        room.clear();
+//        room.add();
+        rooms.add(new ArrayList<>(room));
+        System.out.println(rooms);
+        System.out.println(leetCode0841.canVisitAllRooms(rooms));
     }
 
 }

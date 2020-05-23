@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0572.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE/LeetCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE/LeetCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LEETCODE/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LEETCODE/src/LeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0841.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +112,9 @@
       <workItem from="1590066740868" duration="2890000" />
       <workItem from="1590108412718" duration="4897000" />
       <workItem from="1590147778238" duration="4547000" />
-      <workItem from="1590196970138" duration="2362000" />
+      <workItem from="1590196970138" duration="3908000" />
+      <workItem from="1590222321363" duration="564000" />
+      <workItem from="1590234103776" duration="1008000" />
     </task>
     <servers />
   </component>
@@ -137,16 +137,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;每日温度&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;每日温度&quot;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
