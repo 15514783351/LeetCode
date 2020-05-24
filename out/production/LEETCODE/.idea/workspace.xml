@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0841.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0747.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,8 @@
       <workItem from="1590147778238" duration="4547000" />
       <workItem from="1590196970138" duration="3908000" />
       <workItem from="1590222321363" duration="564000" />
-      <workItem from="1590234103776" duration="1008000" />
+      <workItem from="1590234103776" duration="2132000" />
+      <workItem from="1590318538002" duration="2408000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,7 @@ import java.util.List;
  * 2020/5/23 19:43   戴宗明       1.0         None
  */
 
-
+// 钥匙和房间
 public class LeetCode0841 {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int length = rooms.size();

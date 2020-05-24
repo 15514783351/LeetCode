@@ -43,7 +43,7 @@ public class LeetCode {
 //        LeetCode0140 leetCode0140 = new LeetCode0140();
 
 
-        int[] gas = {2, 2, 2, 3};
+        int[] gas = {0, 0, 2, 3};
         int[] cost = {1, 1, 1, 1, 1};
 
         char[][] board = {{'1', '1', '1', '1', '0'},
@@ -54,25 +54,10 @@ public class LeetCode {
         int[][] image = {{0, 0, 0},
                 {0, 1, 0},
                 {1, 1, 1}};
-        LeetCode0841 leetCode0841 = new LeetCode0841();
-        List<List<Integer>> rooms = new ArrayList<>();
-        List<Integer> room = new ArrayList<>();
-        room.add(1);
-//        room.add(3);
-        rooms.add(new ArrayList<>(room));
-        room.clear();
-//        room.add(3);
-//        room.add(0);
-        room.add(2);
-        rooms.add(new ArrayList<>(room));
-        room.clear();
-        room.add(3);
-        rooms.add(new ArrayList<>(room));
-        room.clear();
-//        room.add();
-        rooms.add(new ArrayList<>(room));
-        System.out.println(rooms);
-        System.out.println(leetCode0841.canVisitAllRooms(rooms));
+        LeetCode0747 leetCode0747 = new LeetCode0747();
+        int index = leetCode0747.dominantIndex(gas);
+        System.out.println(index);
+
     }
 
 }
