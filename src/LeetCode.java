@@ -51,8 +51,7 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-        LeetCode0066 leetCode0066 = new LeetCode0066();
-        System.out.println(leetCode0066.plusOne(new int[]{1, 2, 3}));
+
 
     }
 
