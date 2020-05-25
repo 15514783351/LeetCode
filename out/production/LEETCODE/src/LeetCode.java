@@ -51,12 +51,8 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
-        int[][] image = {{0, 0, 0},
-                {0, 1, 0},
-                {1, 1, 1}};
-        LeetCode0747 leetCode0747 = new LeetCode0747();
-        int index = leetCode0747.dominantIndex(gas);
-        System.out.println(index);
+        LeetCode0066 leetCode0066 = new LeetCode0066();
+        System.out.println(leetCode0066.plusOne(new int[]{1, 2, 3}));
 
     }
 
