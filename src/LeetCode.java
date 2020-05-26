@@ -51,8 +51,12 @@ public class LeetCode {
                 {'1', '1', 'O', '0', '0'},
                 {'1', '1', 'O', 'O', 'O'},
                 {'0', '0', 'O', 'O', '0'}};
+        int[][] matrix = {{1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}};
 
-
+        LeetCode0054 leetCode0054 = new LeetCode0054();
+        System.out.println(leetCode0054.spiralOrder(new int[0][0]));
     }
 
 }
