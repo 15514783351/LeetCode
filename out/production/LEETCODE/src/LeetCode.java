@@ -55,8 +55,8 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0067 leetCode0067 = new LeetCode0067();
-        System.out.println(leetCode0067.addBinary("0", "0"));
+        LeetCode0028 leetCode0028 = new LeetCode0028();
+        System.out.println(leetCode0028.strStr("mississippi", "pi"));
     }
 
 }
