@@ -55,8 +55,8 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0054 leetCode0054 = new LeetCode0054();
-        System.out.println(leetCode0054.spiralOrder(new int[0][0]));
+        LeetCode0067 leetCode0067 = new LeetCode0067();
+        System.out.println(leetCode0067.addBinary("0", "0"));
     }
 
 }
