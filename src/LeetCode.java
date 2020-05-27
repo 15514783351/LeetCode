@@ -55,8 +55,8 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0028 leetCode0028 = new LeetCode0028();
-        System.out.println(leetCode0028.strStr("mississippi", "pi"));
+        LeetCode0014 leetCode0014 = new LeetCode0014();
+        System.out.println(leetCode0014.longestCommonPrefix(new String[]{"aa", "ab"}));
     }
 
 }

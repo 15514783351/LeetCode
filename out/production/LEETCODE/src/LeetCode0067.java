@@ -29,6 +29,7 @@ public class LeetCode0067 {
         }
 //        if (length1 == length2 && !a.equals("0") && !b.equals("0")) sb.append("1");
         if (add == 1) sb.append("1");
+
         return sb.reverse().toString();
 
     }

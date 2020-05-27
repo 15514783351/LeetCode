@@ -6,7 +6,7 @@
  * 2020/5/27 20:02   戴宗明       1.0         None
  */
 
-
+// 实现strStr()
 public class LeetCode0028 {
     public int strStr(String haystack, String needle) {
         if (needle.equals("")) return 0;
