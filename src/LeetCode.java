@@ -43,7 +43,7 @@ public class LeetCode {
 //        LeetCode0140 leetCode0140 = new LeetCode0140();
 
 
-        int[] gas = {0, 0, 2, 3};
+        int[] gas = {1, 2, 3, 2};
         int[] cost = {1, 1, 1, 1, 1};
 
         char[][] board = {{'1', '1', '1', '1', '0'},
@@ -55,8 +55,8 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0014 leetCode0014 = new LeetCode0014();
-        System.out.println(leetCode0014.longestCommonPrefix(new String[]{"aa", "ab"}));
+        LeetCode0561 leetCode0561 = new LeetCode0561();
+        System.out.println(leetCode0561.arrayPairSum(gas));
     }
 
 }
