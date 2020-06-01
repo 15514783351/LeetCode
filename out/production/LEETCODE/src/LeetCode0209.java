@@ -14,12 +14,10 @@ public class LeetCode0209 {
         int res = Integer.MAX_VALUE;
         int sum = 0;
         while (right < nums.length) {
-            System.out.println("" + left + " " + right);
-            if (sum < s) {
-                sum += nums[right];
-                right++;
-            } else {
-                res = Math.min(res, right - left - 1);
+            sum += nums[right];
+            right++;
+            while (sum >= s) {
+                res = Math.min(res, right - left);
                 sum -= nums[left];
                 left++;
             }
