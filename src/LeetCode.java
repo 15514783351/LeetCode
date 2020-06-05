@@ -55,8 +55,8 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0561 leetCode0561 = new LeetCode0561();
-        System.out.println(leetCode0561.arrayPairSum(gas));
+        LeetCode0203 leetCode0203 = new LeetCode0203();
+        leetCode0203.removeElements(l, 3);
     }
 
 }
