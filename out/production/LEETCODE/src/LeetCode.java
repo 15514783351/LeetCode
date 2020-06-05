@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class LeetCode {
     public static void main(String[] args) {
 
@@ -13,15 +10,15 @@ public class LeetCode {
 //        int[] h = {3, 1, 3, 2, 2};
 //        System.out.println(leetCode0085.maximalRectangle(heights));
 //        System.out.println(leetCode0085.largestRectangleArea(h));
-        ListNode l = new ListNode(4);
+        ListNode l = new ListNode(1);
         ListNode p = l;
         p.next = new ListNode(2);
         p = p.next;
-        p.next = new ListNode(1);
-        p = p.next;
         p.next = new ListNode(3);
-//        p = p.next;
-//        p.next = new ListNode(6);
+        p = p.next;
+        p.next = new ListNode(4);
+        p = p.next;
+        p.next = new ListNode(5);
 //        p = p.next;
 //        p.next = new ListNode(7);
 //        p = p.next;
@@ -55,8 +52,8 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0203 leetCode0203 = new LeetCode0203();
-        leetCode0203.removeElements(l, 3);
+        LeetCode0328 leetCode0328 = new LeetCode0328();
+        leetCode0328.oddEvenList(l);
     }
 
 }

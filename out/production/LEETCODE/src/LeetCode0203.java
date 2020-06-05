@@ -21,9 +21,6 @@ public class LeetCode0203 {
                 pre = pre.next;
                 cur = cur.next;
             }
-
-
-//            System.out.println(pre.val);
         }
         return dummy.next;
     }
