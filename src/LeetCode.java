@@ -52,8 +52,8 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0328 leetCode0328 = new LeetCode0328();
-        leetCode0328.oddEvenList(l);
+        LeetCode0202 leetCode0202 = new LeetCode0202();
+        System.out.println(leetCode0202.isHappy(19));
     }
 
 }

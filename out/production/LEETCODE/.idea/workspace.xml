@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0202.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,7 +127,10 @@
       <workItem from="1591096654680" duration="2884000" />
       <workItem from="1591184063624" duration="1754000" />
       <workItem from="1591268877626" duration="2910000" />
-      <workItem from="1591354439062" duration="1726000" />
+      <workItem from="1591354439062" duration="5423000" />
+      <workItem from="1591407227637" duration="9661000" />
+      <workItem from="1591494967575" duration="3735000" />
+      <workItem from="1591613485429" duration="3949000" />
     </task>
     <servers />
   </component>
@@ -165,8 +169,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCode.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="6" />
+          <line>55</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
