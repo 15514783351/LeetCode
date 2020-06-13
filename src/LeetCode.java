@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class LeetCode {
     public static void main(String[] args) {
 
@@ -52,8 +54,11 @@ public class LeetCode {
                 {4, 5, 6},
                 {7, 8, 9}};
 
-        LeetCode0202 leetCode0202 = new LeetCode0202();
-        System.out.println(leetCode0202.isHappy(19));
+        LeetCode0049 leetCode0049 = new LeetCode0049();
+        String[] strs = {"eat", "ate", "ant"};
+        System.out.println(leetCode0049.groupAnagrams(strs));
+
+
     }
 
 }
