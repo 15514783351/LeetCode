@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+// 二叉树后序遍历
 public class LeetCode0145 {
     List<Integer> output = new ArrayList<>();
     public List<Integer> postorderTraversal(TreeNode root) {
