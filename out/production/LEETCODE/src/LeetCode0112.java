@@ -1,3 +1,5 @@
+
+// 路径总和
 public class LeetCode0112 {
 
 //    public boolean hasPathSum(TreeNode root, int sum) {
@@ -11,21 +13,18 @@ public class LeetCode0112 {
     private boolean res = false;
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) return false;
-        if (root.left == null && root.right == null) return sum == root.val;
         tar = sum;
-        helper(root, 0);
+        helper(root, root.val);
         return res;
 
     }
 
     private void helper(TreeNode root, int sum) {
-        if (sum == tar) {
-            if (root == null) res = true;
-        } else if (sum < tar) {
-            if (root != null) {
-                helper(root.left, sum + root.val);
-                helper(root.right, sum + root.val);
-            }
+        if (root.left == null && root.right == null) {
+            if (sum == tar) res = true;
+        } else {
+            if (root.left != null) helper(root.left, sum + root.left.val);
+            if (root.right != null) helper(root.right, sum + root.right.val);
         }
     }
 
