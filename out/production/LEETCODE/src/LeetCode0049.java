@@ -23,8 +23,6 @@ public class LeetCode0049 {
                 hashMap.get(sortStr).add(str);
             }
         }
-
-
         return new ArrayList<>(hashMap.values());
     }
 }

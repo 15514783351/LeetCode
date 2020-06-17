@@ -33,30 +33,29 @@ public class LeetCode {
         TreeNode t1 = new TreeNode(1);
         TreeNode t2 = new TreeNode(2);
         TreeNode t3 = new TreeNode(3);
-        t2.left = new TreeNode(4);
-        t1.right = t2;
-        t1.left = t3;
-//        LeetCode0094 leetCode0094 = new LeetCode0094();
-//        System.out.println(leetCode0094.inorderTraversal(t1));
+        t1.left = t2;
+//        t1.left = t3;
 
-//        LeetCode0140 leetCode0140 = new LeetCode0140();
+        LeetCode0112 leetCode0112 = new LeetCode0112();
+        boolean b = leetCode0112.hasPathSum(t1, 1);
+        System.out.println(b);
 
 
-        int[] gas = {1, 2, 3, 2};
-        int[] cost = {1, 1, 1, 1, 1};
-
-        char[][] board = {{'1', '1', '1', '1', '0'},
-                {'1', '1', '0', '1', '0'},
-                {'1', '1', 'O', '0', '0'},
-                {'1', '1', 'O', 'O', 'O'},
-                {'0', '0', 'O', 'O', '0'}};
-        int[][] matrix = {{1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9}};
-
-        LeetCode0049 leetCode0049 = new LeetCode0049();
-        String[] strs = {"eat", "ate", "ant"};
-        System.out.println(leetCode0049.groupAnagrams(strs));
+//        int[] gas = {1, 2, 3, 2};
+//        int[] cost = {1, 1, 1, 1, 1};
+//
+//        char[][] board = {{'1', '1', '1', '1', '0'},
+//                {'1', '1', '0', '1', '0'},
+//                {'1', '1', 'O', '0', '0'},
+//                {'1', '1', 'O', 'O', 'O'},
+//                {'0', '0', 'O', 'O', '0'}};
+//        int[][] matrix = {{1, 2, 3},
+//                {4, 5, 6},
+//                {7, 8, 9}};
+//
+//        LeetCode0049 leetCode0049 = new LeetCode0049();
+//        String[] strs = {"eat", "ate", "ant"};
+//        System.out.println(leetCode0049.groupAnagrams(strs));
 
 
     }

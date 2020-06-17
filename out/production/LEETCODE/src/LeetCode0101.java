@@ -1,5 +1,5 @@
 
-
+// 对称二叉树
 public class LeetCode0101 {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
