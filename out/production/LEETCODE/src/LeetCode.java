@@ -54,7 +54,7 @@ public class LeetCode {
 //        String[] strs = {"eat", "ate", "ant"};
 //        System.out.println(leetCode0049.groupAnagrams(strs));
         LeetCode0118 leetCode0118 = new LeetCode0118();
-        System.out.println(leetCode0118.generate(5));
+        System.out.println(leetCode0118.generate(30));
 
     }
 

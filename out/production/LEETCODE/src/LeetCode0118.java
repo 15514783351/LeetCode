@@ -1,9 +1,12 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
+// 杨辉三角
 public class LeetCode0118 {
     private ArrayList[] res;
+    private HashMap<List<Integer>, Integer> visited = new HashMap<>();
     public List<List<Integer>> generate(int numRows) {
 //        if (numRows == 0) return new ArrayList<>();
 //        List<Integer> pre = new ArrayList<>();
@@ -22,10 +25,14 @@ public class LeetCode0118 {
 //        return res;
 
         res = new ArrayList[numRows];
+        visited.put(Arrays.asList(0, 0), 1);
         for (int i = 0; i < numRows; i++) {
             res[i] = new ArrayList();
             for (int j = 0; j <= i; j++) {
-                res[i].add(helper(i, j));
+                int val = helper(i, j);
+                res[i].add(val);
+                if (visited.get(Arrays.asList(i, j)) == null) visited.put(Arrays.asList(i, j), val);
+
             }
         }
         return Arrays.asList(res);
@@ -33,7 +40,9 @@ public class LeetCode0118 {
 
     private int helper(int i, int j) {
         if (j == 0 || j == i) return 1;
-        else {
+        else if (visited.get(Arrays.asList(i, j)) != null) {
+            return visited.get(Arrays.asList(i, j));
+        } else {
             return helper(i - 1, j - 1) + helper(i - 1, j);
         }
     }
