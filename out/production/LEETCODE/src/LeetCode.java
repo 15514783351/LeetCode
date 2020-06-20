@@ -36,9 +36,6 @@ public class LeetCode {
         t1.left = t2;
 //        t1.left = t3;
 
-        LeetCode0112 leetCode0112 = new LeetCode0112();
-        boolean b = leetCode0112.hasPathSum(t1, 1);
-        System.out.println(b);
 
 
 //        int[] gas = {1, 2, 3, 2};
@@ -56,7 +53,8 @@ public class LeetCode {
 //        LeetCode0049 leetCode0049 = new LeetCode0049();
 //        String[] strs = {"eat", "ate", "ant"};
 //        System.out.println(leetCode0049.groupAnagrams(strs));
-
+        LeetCode0118 leetCode0118 = new LeetCode0118();
+        System.out.println(leetCode0118.generate(5));
 
     }
 
