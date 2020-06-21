@@ -12,9 +12,6 @@ import java.util.HashMap;
 public class LeetCode0070 {
     HashMap<Integer, Integer> visited = new HashMap<>();
     public int climbStairs(int n) {
-        // visited.put(0, 1);
-        visited.put(1, 1);
-        visited.put(2, 2);
         return helper(0, n);
     }
 
