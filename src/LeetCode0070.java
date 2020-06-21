@@ -9,7 +9,7 @@ import java.util.HashMap;
  */
 
 // 爬楼梯
-public class LeetCOde0070 {
+public class LeetCode0070 {
     HashMap<Integer, Integer> visited = new HashMap<>();
     public int climbStairs(int n) {
         // visited.put(0, 1);
