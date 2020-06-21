@@ -9,17 +9,30 @@
 // 反转链表
 public class LeetCode0206 {
     public ListNode reverseList(ListNode head) {
-        if (head == null) return head;
-        ListNode dummy = new ListNode(-1);
-        dummy.next = head;
-        ListNode cur = head;
-        ListNode next;
-        while (cur.next != null) {
-            next = cur.next;
-            cur.next = next.next;
-            next.next = dummy.next;
-            dummy.next = next;
+//        if (head == null) return head;
+//        ListNode dummy = new ListNode(-1);
+//        dummy.next = head;
+//        ListNode cur = head;
+//        ListNode next;
+//        while (cur.next != null) {
+//            next = cur.next;
+//            cur.next = next.next;
+//            next.next = dummy.next;
+//            dummy.next = next;
+//        }
+//        return dummy.next;
+        return helper(head);
+
+    }
+
+    private ListNode helper(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        } else {
+            ListNode cur = helper(head.next);
+            head.next.next = head;
+            head.next = null;
+            return cur;
         }
-        return dummy.next;
     }
 }

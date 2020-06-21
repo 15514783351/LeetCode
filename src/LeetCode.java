@@ -1,7 +1,33 @@
 import java.util.Arrays;
 
+class Father {
+    int x = 1;
+    void father () {
+        System.out.println("father1");
+    }
+}
+
+class Mather extends Father {
+    int x = 2;
+    void mather () {
+        System.out.println("mather");
+    }
+
+}
+
+class Son extends Mather {
+    int x = 3;
+    void son () {
+        System.out.println(super.x);
+        ;
+    }
+}
+
 public class LeetCode {
     public static void main(String[] args) {
+
+        Son son = new Son();
+        son.son();
 
 //        char[][] heights = {
 //                {'1', '0', '1', '0', '0'},
@@ -12,15 +38,15 @@ public class LeetCode {
 //        int[] h = {3, 1, 3, 2, 2};
 //        System.out.println(leetCode0085.maximalRectangle(heights));
 //        System.out.println(leetCode0085.largestRectangleArea(h));
-        ListNode l = new ListNode(1);
-        ListNode p = l;
-        p.next = new ListNode(2);
-        p = p.next;
-        p.next = new ListNode(3);
-        p = p.next;
-        p.next = new ListNode(4);
-        p = p.next;
-        p.next = new ListNode(5);
+//        ListNode l = new ListNode(1);
+//        ListNode p = l;
+//        p.next = new ListNode(2);
+//        p = p.next;
+//        p.next = new ListNode(3);
+//        p = p.next;
+//        p.next = new ListNode(4);
+//        p = p.next;
+//        p.next = new ListNode(5);
 //        p = p.next;
 //        p.next = new ListNode(7);
 //        p = p.next;
@@ -30,10 +56,10 @@ public class LeetCode {
 //        p = p.next;
 //        p.next = new ListNode(4);
 //        p = p.next;
-        TreeNode t1 = new TreeNode(1);
-        TreeNode t2 = new TreeNode(2);
-        TreeNode t3 = new TreeNode(3);
-        t1.left = t2;
+//        TreeNode t1 = new TreeNode(1);
+//        TreeNode t2 = new TreeNode(2);
+//        TreeNode t3 = new TreeNode(3);
+//        t1.left = t2;
 //        t1.left = t3;
 
 
@@ -53,8 +79,6 @@ public class LeetCode {
 //        LeetCode0049 leetCode0049 = new LeetCode0049();
 //        String[] strs = {"eat", "ate", "ant"};
 //        System.out.println(leetCode0049.groupAnagrams(strs));
-        LeetCode0118 leetCode0118 = new LeetCode0118();
-        System.out.println(leetCode0118.generate(30));
 
     }
 
