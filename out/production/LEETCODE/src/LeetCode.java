@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.Scanner;
 
 class Father {
     int x = 1;
@@ -23,11 +25,29 @@ class Son extends Mather {
     }
 }
 
+class Mainmm {
+    public String fun(String s) {
+        int length  = s.length();
+        LinkedHashMap<Integer, Character> index = new LinkedHashMap<>();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < length; i++) {
+            if (s.charAt(i) >= '0' && s.charAt(i) <= '9') index.put(i, s.charAt(i));
+            else sb.append(s.charAt(i));
+        }
+        System.out.println(sb);
+
+        // 复原函数
+        for (int key: index.keySet()) sb.insert(key, index.get(key));
+
+        return sb.toString();
+    }
+}
+
 public class LeetCode {
     public static void main(String[] args) {
+        Mainmm mm = new Mainmm();
+        System.out.println(mm.fun("SSSS123S"));
 
-        Son son = new Son();
-        son.son();
 
 //        char[][] heights = {
 //                {'1', '0', '1', '0', '0'},
