@@ -45,8 +45,7 @@ class Mainmm {
 
 public class LeetCode {
     public static void main(String[] args) {
-        Mainmm mm = new Mainmm();
-        System.out.println(mm.fun("SSSS123S"));
+
 
 
 //        char[][] heights = {
@@ -96,9 +95,8 @@ public class LeetCode {
 //                {4, 5, 6},
 //                {7, 8, 9}};
 //
-//        LeetCode0049 leetCode0049 = new LeetCode0049();
-//        String[] strs = {"eat", "ate", "ant"};
-//        System.out.println(leetCode0049.groupAnagrams(strs));
+        LeetCode0779 leetCode0779 = new LeetCode0779();
+        System.out.println(leetCode0779.kthGrammar(4, 3));
 
     }
 
