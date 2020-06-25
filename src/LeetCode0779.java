@@ -33,17 +33,25 @@ public class LeetCode0779 {
 //        }
 //        return res;
 
-        int[][] dp = new int[N][(int)Math.pow(2, N - 1)];
-        dp[0][0] = 0;
+//        int[][] dp = new int[N][(int)Math.pow(2, N - 1)];
+//        dp[0][0] = 0;
+//        for (int i = 1; i < N; i++) {
+//            int mid = (int) Math.pow(2, i) / 2;
+//            for (int j = 0; j < (int)Math.pow(2, i); j++) {
+//                if (j < mid) dp[i][j] = dp[i - 1][j];
+//                else dp[i][j] = 1 - dp[i - 1][j - mid];
+//            }
+//        }
+//        return dp[N - 1][K - 1];
+
+        int[] dp = new int[(int)Math.pow(2, N - 1)];
         for (int i = 1; i < N; i++) {
             int mid = (int) Math.pow(2, i) / 2;
-            for (int j = 0; j < (int)Math.pow(2, i); j++) {
-
-                if (j < mid) dp[i][j] = dp[i - 1][j];
-                else dp[i][j] = 1 - dp[i - 1][j - mid];
+            for (int j = mid; j < (int)Math.pow(2, i); j++) {
+                dp[j] = 1 - dp[j - mid];
             }
         }
-        return dp[N - 1][K - 1];
+        return dp[K - 1];
 
     }
 }
