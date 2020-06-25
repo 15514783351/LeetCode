@@ -10,6 +10,7 @@
 public class LeetCode0189 {
     public void rotate(int[] nums, int k) {
         int length = nums.length;
+        k = k % length;
         int temp = 0;
         for (int i = 0; i < k; i++) {
             temp = nums[length - 1];
