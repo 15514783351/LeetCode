@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0718.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode1387.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode0718">
+  <component name="RunManager" selected="Application.LeetCode1387">
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode" />
       <module name="LEETCODE" />
@@ -74,6 +74,13 @@
     </configuration>
     <configuration name="LeetCode0718" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode0718" />
+      <module name="LEETCODE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode1387" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode1387" />
       <module name="LEETCODE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode1387" />
         <item itemvalue="Application.LeetCode0718" />
         <item itemvalue="Application.LeetCode" />
         <item itemvalue="Application.NiuKe" />
@@ -165,7 +173,9 @@
       <workItem from="1593075624551" duration="4454000" />
       <workItem from="1593309951171" duration="3621000" />
       <workItem from="1593517305197" duration="806000" />
-      <workItem from="1593567882814" duration="1240000" />
+      <workItem from="1593567882814" duration="3222000" />
+      <workItem from="1593656275362" duration="3485000" />
+      <workItem from="1593738803776" duration="2130000" />
     </task>
     <servers />
   </component>
@@ -206,6 +216,11 @@
           <url>file://$PROJECT_DIR$/src/LeetCode.java</url>
           <line>98</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode1387.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
