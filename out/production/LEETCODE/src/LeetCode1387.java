@@ -22,7 +22,7 @@ public class LeetCode1387 {
         for (int i = 0; i < steps.length; i++) nums[i] = lo + i;
         for (int i = 0; i < steps.length; i++) {
             for (int j = 0; j < steps.length - i - 1; j++) {
-                if (steps[j + 1] > steps[j]) {
+                if (steps[j + 1] < steps[j]) {
                     int temp = steps[j + 1];
                     steps[j + 1] = steps[j];
                     steps[j] = temp;
