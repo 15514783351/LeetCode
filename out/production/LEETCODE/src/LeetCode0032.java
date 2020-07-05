@@ -21,6 +21,7 @@ public class LeetCode0032 {
                 linkedList.addLast(i);
             } else {
                 if (parent.peekLast() == '(') {
+                    parent.pollLast();
                     isOK[linkedList.pollLast()] = 1;
                     isOK[i] = 1;
                 }

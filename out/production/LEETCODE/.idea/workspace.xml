@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0032.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0044.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode0032">
+  <component name="RunManager" selected="Application.LeetCode0044">
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode" />
       <module name="LEETCODE" />
@@ -74,6 +74,13 @@
     </configuration>
     <configuration name="LeetCode0032" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode0032" />
+      <module name="LEETCODE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode0044" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode0044" />
       <module name="LEETCODE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,20 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NiuKe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NiuKe" />
-      <module name="LEETCODE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0044" />
         <item itemvalue="Application.LeetCode0032" />
         <item itemvalue="Application.LeetCode1387" />
         <item itemvalue="Application.LeetCode0718" />
         <item itemvalue="Application.LeetCode" />
-        <item itemvalue="Application.NiuKe" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,8 @@
       <workItem from="1593567882814" duration="3222000" />
       <workItem from="1593656275362" duration="3485000" />
       <workItem from="1593738803776" duration="3111000" />
-      <workItem from="1593849646481" duration="3654000" />
+      <workItem from="1593849646481" duration="5668000" />
+      <workItem from="1593932470911" duration="1729000" />
     </task>
     <servers />
   </component>
