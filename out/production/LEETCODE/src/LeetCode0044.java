@@ -22,7 +22,6 @@ public class LeetCode0044 {
                 else if (dp[i - 1][j - 1] && p.charAt(j - 1) == '*') dp[i][j] = true;
                 else if (s.charAt(i - 1) == p.charAt(j - 1) && dp[i - 1][j - 1]) dp[i][j] = true;
                 else if (p.charAt(j - 1) == '?' && dp[i - 1][j - 1]) dp[i][j] = true;
-                else if (p.charAt(j - 1) != s.charAt(i - 1)) break;
             }
         }
         return dp[s.length()][p.length()];

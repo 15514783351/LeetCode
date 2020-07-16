@@ -9,22 +9,39 @@ public class LeetCode0112 {
 //        return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
 //    }
 
-    private int tar = 0;
-    private boolean res = false;
+//    private int tar = 0;
+//    private boolean res = false;
+//    public boolean hasPathSum(TreeNode root, int sum) {
+//        if (root == null) return false;
+//        tar = sum;
+//        helper(root, root.val);
+//        return res;
+//
+//    }
+//
+//    private void helper(TreeNode root, int sum) {
+//        if (root.left == null && root.right == null) {
+//            if (sum == tar) res = true;
+//        } else {
+//            if (root.left != null) helper(root.left, sum + root.left.val);
+//            if (root.right != null) helper(root.right, sum + root.right.val);
+//        }
+//    }
+
+
+    boolean res = false;
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) return false;
-        tar = sum;
-        helper(root, root.val);
+        helper(root, sum - root.val);
         return res;
-
     }
 
     private void helper(TreeNode root, int sum) {
         if (root.left == null && root.right == null) {
-            if (sum == tar) res = true;
+            if (sum == 0) res = true;
         } else {
-            if (root.left != null) helper(root.left, sum + root.left.val);
-            if (root.right != null) helper(root.right, sum + root.right.val);
+            if (root.left != null) helper(root.left, sum - root.left.val);
+            if (root.right != null) helper(root.right, sum - root.right.val);
         }
     }
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0044.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0785.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,14 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode0044">
-    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode" />
-      <module name="LEETCODE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeetCode0785">
     <configuration name="LeetCode0032" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode0032" />
       <module name="LEETCODE" />
@@ -93,6 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetCode0785" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode0785" />
+      <module name="LEETCODE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode1387" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode1387" />
       <module name="LEETCODE" />
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0785" />
         <item itemvalue="Application.LeetCode0044" />
         <item itemvalue="Application.LeetCode0032" />
         <item itemvalue="Application.LeetCode1387" />
         <item itemvalue="Application.LeetCode0718" />
-        <item itemvalue="Application.LeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,17 @@
       <workItem from="1593656275362" duration="3485000" />
       <workItem from="1593738803776" duration="3111000" />
       <workItem from="1593849646481" duration="5668000" />
-      <workItem from="1593932470911" duration="1729000" />
+      <workItem from="1593932470911" duration="3836000" />
+      <workItem from="1593999420592" duration="50000" />
+      <workItem from="1594035595689" duration="1371000" />
+      <workItem from="1594084718985" duration="5124000" />
+      <workItem from="1594210817910" duration="2402000" />
+      <workItem from="1594279562508" duration="3878000" />
+      <workItem from="1594380557755" duration="2291000" />
+      <workItem from="1594431898819" duration="42000" />
+      <workItem from="1594643233246" duration="4759000" />
+      <workItem from="1594813212724" duration="1349000" />
+      <workItem from="1594900815583" duration="2224000" />
     </task>
     <servers />
   </component>
@@ -223,6 +233,21 @@
           <url>file://$PROJECT_DIR$/src/LeetCode1387.java</url>
           <line>60</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode0044.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode0044.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode0785.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
