@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0c778e-158c-4ea9-801e-f15210270dc9" name="Default Changelist" comment="&quot;每日温度&quot;">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0785.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0329.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -64,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeetCode0785">
+  <component name="RunManager" selected="Application.LeetCode0329">
     <configuration name="LeetCode0032" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode0032" />
       <module name="LEETCODE" />
@@ -79,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode0718" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0718" />
+    <configuration name="LeetCode0329" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode0329" />
       <module name="LEETCODE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0329" />
         <item itemvalue="Application.LeetCode0785" />
         <item itemvalue="Application.LeetCode0044" />
         <item itemvalue="Application.LeetCode0032" />
         <item itemvalue="Application.LeetCode1387" />
-        <item itemvalue="Application.LeetCode0718" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +192,20 @@
       <workItem from="1594431898819" duration="42000" />
       <workItem from="1594643233246" duration="4759000" />
       <workItem from="1594813212724" duration="1349000" />
-      <workItem from="1594900815583" duration="2224000" />
+      <workItem from="1594900815583" duration="4245000" />
+      <workItem from="1594987284285" duration="1171000" />
+      <workItem from="1595076477896" duration="2133000" />
+      <workItem from="1595161030378" duration="1854000" />
+      <workItem from="1595163008499" duration="90000" />
+      <workItem from="1595249656462" duration="1364000" />
+      <workItem from="1595329927730" duration="1881000" />
+      <workItem from="1595402995283" duration="2021000" />
+      <workItem from="1595424825397" duration="1456000" />
+      <workItem from="1595509256130" duration="1323000" />
+      <workItem from="1595551676598" duration="1667000" />
+      <workItem from="1595593315201" duration="847000" />
+      <workItem from="1595678426925" duration="1886000" />
+      <workItem from="1595766432892" duration="1572000" />
     </task>
     <servers />
   </component>
@@ -246,7 +264,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCode0785.java</url>
-          <line>55</line>
+          <line>89</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
