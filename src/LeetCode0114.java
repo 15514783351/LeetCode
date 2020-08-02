@@ -1,5 +1,6 @@
 import java.util.List;
 
+// 二叉树展开为链表
 public class LeetCode0114 {
 //    public void flatten(TreeNode root) {
 //        while (root != null) {
