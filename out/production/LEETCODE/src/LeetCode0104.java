@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 // 二叉树的最大深度
@@ -18,11 +19,11 @@ public class LeetCode0104 {
 //    }
 
     private int res = 0;
-    public int maxDepth(TreeNode root) {
-        if (root == null) return 0;
-        helper(root, 0);
-        return res;
-    }
+//    public int maxDepth(TreeNode root) {
+//        if (root == null) return 0;
+//        helper(root, 0);
+//        return res;
+//    }
 
     private void helper(TreeNode root, int depth) {
         if (root == null) {
@@ -32,4 +33,27 @@ public class LeetCode0104 {
             helper(root.right, depth + 1);
         }
     }
+
+    // 使用堆地方式
+    public int maxDepth(TreeNode root) {
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        if (root == null) return 0;
+        int res = 0;
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            res++;
+            for (int i = 0; i < size; i++) {
+                TreeNode temp = queue.pollFirst();
+                if (temp.left != null) {
+                    queue.addLast(temp.left);
+                }
+                if (temp.right != null) {
+                    queue.addLast(temp.right);
+                }
+            }
+        }
+        return res;
+    }
+
 }

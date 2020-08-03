@@ -6,7 +6,7 @@
  * 2020/7/27 20:12   戴宗明       1.0         None
  */
 
-
+// 判断子序列
 public class LeetCode0392 {
     public boolean isSubsequence(String s, String t) {
         int m = s.length();
