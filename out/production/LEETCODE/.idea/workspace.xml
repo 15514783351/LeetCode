@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode0415.java" afterDir="false" />
-    </list>
+    <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../community/community" />
+    <property name="last_opened_file_path" value="D:/012BilibiliJava" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -188,7 +186,17 @@
       <workItem from="1596101018069" duration="88000" />
       <workItem from="1596290851845" duration="163000" />
       <workItem from="1596373027016" duration="837000" />
-      <workItem from="1596457867921" duration="975000" />
+      <workItem from="1596457867921" duration="1638000" />
+      <workItem from="1596635274875" duration="811000" />
+      <workItem from="1596674632812" duration="96000" />
+      <workItem from="1596723155578" duration="148000" />
+      <workItem from="1596723345488" duration="859000" />
+      <workItem from="1596898931036" duration="203000" />
+      <workItem from="1596984945297" duration="466000" />
+      <workItem from="1597026729407" duration="614000" />
+      <workItem from="1597069483346" duration="115000" />
+      <workItem from="1597110526074" duration="277000" />
+      <workItem from="1599963275155" duration="10000" />
     </task>
     <servers />
   </component>
@@ -210,74 +218,58 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="424" y="265" width="431" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1589800981153" />
-    <state x="667" y="96" key="#xdebugger.evaluate" timestamp="1588077504003">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="667" y="96" key="#xdebugger.evaluate/0.0.1280.760@0.0.1280.760" timestamp="1588077504003" />
-    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1587990937453">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1587990937453" />
-    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1588077486967">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="428" height="466" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1588077486967" />
     <state x="93" y="93" width="1093" height="573" key="DiffContextDialog" timestamp="1589113114233">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="93" y="93" width="1093" height="573" key="DiffContextDialog/0.0.1280.760@0.0.1280.760" timestamp="1589113114233" />
-    <state width="1238" height="153" key="GridCell.Tab.0.bottom" timestamp="1590410011697">
+    <state x="577" y="161" key="FileChooserDialogImpl" timestamp="1597110797223">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1590410011697" />
-    <state width="1238" height="153" key="GridCell.Tab.0.center" timestamp="1590410011697">
+    <state x="577" y="161" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1597110797223" />
+    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1596459518380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1590410011697" />
-    <state width="1238" height="153" key="GridCell.Tab.0.left" timestamp="1590410011697">
+    <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
+    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1596459518380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1590410011697" />
-    <state width="1238" height="153" key="GridCell.Tab.0.right" timestamp="1590410011697">
+    <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
+    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1596459518380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="153" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1590410011697" />
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1589200994086">
+    <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
+    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1596459518380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1589200994086" />
-    <state width="1238" height="192" key="GridCell.Tab.1.center" timestamp="1589200994086">
+    <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
+    <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1596459518380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1589200994086" />
-    <state width="1238" height="192" key="GridCell.Tab.1.left" timestamp="1589200994086">
+    <state width="1238" height="192" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
+    <state width="1238" height="192" key="GridCell.Tab.1.center" timestamp="1596459518380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1589200994086" />
-    <state width="1238" height="192" key="GridCell.Tab.1.right" timestamp="1589200994086">
+    <state width="1238" height="192" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
+    <state width="1238" height="192" key="GridCell.Tab.1.left" timestamp="1596459518380">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1589200994086" />
+    <state width="1238" height="192" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
+    <state width="1238" height="192" key="GridCell.Tab.1.right" timestamp="1596459518380">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="192" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1596459518380" />
     <state x="466" y="91" key="RollbackChangesDialog" timestamp="1589110429495">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="466" y="91" key="RollbackChangesDialog/0.0.1280.760@0.0.1280.760" timestamp="1589110429495" />
-    <state x="84" y="0" key="SettingsEditor" timestamp="1587213859380">
+    <state x="325" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1597110779257">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="84" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1587213859380" />
-    <state x="325" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1589270328676">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="325" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1589270328676" />
+    <state x="325" y="205" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1597110779257" />
     <state x="6" y="0" key="new project wizard" timestamp="1595399709945">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="6" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1595399709945" />
-    <state x="247" y="177" key="run.anything.popup" timestamp="1586921861002">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="247" y="177" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1586921861002" />
     <state x="305" y="84" width="672" height="678" key="search.everywhere.popup" timestamp="1589194595587">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -315,6 +307,11 @@
           <url>file://$PROJECT_DIR$/src/LeetCode0086.java</url>
           <line>27</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode0415.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LeetCode0076.java</url>

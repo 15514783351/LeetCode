@@ -3,8 +3,6 @@ import java.util.LinkedList;
 // 字符串相加
 public class LeetCode0415 {
     public String addStrings(String num1, String num2) {
-        int len1 = num1.length();
-        int len2 = num2.length();
         LinkedList<Character> stack1 = new LinkedList<>();
         LinkedList<Character> stack2 = new LinkedList<>();
         for (Character c: num1.toCharArray()) {

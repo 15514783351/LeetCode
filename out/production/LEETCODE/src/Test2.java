@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Contact :   dzm_1995@163.com
@@ -12,30 +11,9 @@ import java.util.Scanner;
 
 public class Test2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        while (sc.hasNextInt()) {
-            int n = sc.nextInt();
-            int[] nums = new int[n];
-            int[] sorted = new int[n];
-            for (int i = 0; i < n; i++) {
-                int num = sc.nextInt();
-                nums[i] = num;
-                sorted[i] = num;
-            }
-            Arrays.sort(sorted);
-            int count = 0;
-            int index = getIndex(nums, sorted[n - 1]);  // 最大值的index
-            int start = n - 1;
-            for (int i = index; i >= 0; i--) {
-                if (nums[i] == sorted[start]) {
-                    count++;
-                    start--;
-                }
-            }
-            System.out.println(n - count);
-            return;
-
-        }
+        int[] deck = {1, 2, 3, 2, 3, 3};
+        boolean b = hasGroupsSizeX(deck);
+        System.out.println(b);
     }
 
     public static int getIndex(int[] arr, int value) {
@@ -45,5 +23,29 @@ public class Test2 {
             }
         }
         return -1;//如果未找到返回-1
+    }
+
+    public static boolean hasGroupsSizeX(int[] deck) {
+        // 计数
+        int[] counter = new int[10000];
+        for (int num: deck) {
+            counter[num]++;
+        }
+        // 求gcd
+        int x = 0;
+        for(int cnt: counter) {
+            if (cnt > 0) {
+                x = gcd(x, cnt);
+                if (x == 1) {
+                    return false;
+                }
+            }
+        }
+        return x >= 2;
+    }
+
+    // 最大公约数
+    public static int gcd(int a, int b) {
+        return b == 0? a: gcd(b, a % b);
     }
 }
