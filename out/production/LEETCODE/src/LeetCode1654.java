@@ -30,12 +30,12 @@ public class LeetCode1654 {
             visit.add(poll[0]);
             // left jump
             if(poll[1] == 1 && poll[0] - b > 0 && !forbiddenSet.contains(poll[0] - b) ) {
-                queue.offer(new int[]{poll[0] - b, -1, poll[2] + 1});
+                queue.add(new int[]{poll[0] - b, -1, poll[2] + 1});
             }
 
             // right jump
             if (!forbiddenSet.contains(poll[0] + a) && poll[0] + a < 6000) {
-                queue.offer(new int[]{poll[0] + a, 1, poll[2] + 1});
+                queue.add(new int[]{poll[0] + a, 1, poll[2] + 1});
             }
 
 
