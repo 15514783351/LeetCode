@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="046a937d-dda8-4ad5-9e70-28306f7a40f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode1654.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode0419.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +46,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode1654">
-    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode" />
+  <component name="RunManager" selected="Application.LeetCode0419">
+    <configuration name="LeetCode0415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode0415" />
       <module name="LEETCODE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode0415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode0415" />
+    <configuration name="LeetCode0419" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode0419" />
       <module name="LEETCODE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode0419" />
         <item itemvalue="Application.LeetCode1654" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.LeetCode0415" />
-        <item itemvalue="Application.LeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,8 @@
       <workItem from="1637409169114" duration="605000" />
       <workItem from="1637476651266" duration="1665000" />
       <workItem from="1639308128211" duration="3465000" />
-      <workItem from="1639483038935" duration="1657000" />
+      <workItem from="1639483038935" duration="5843000" />
+      <workItem from="1639746470113" duration="690000" />
     </task>
     <servers />
   </component>
@@ -224,54 +225,62 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="481" y="175" key="#xdebugger.evaluate" timestamp="1639488360125">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="481" y="175" key="#xdebugger.evaluate/0.0.1280.760@0.0.1280.760" timestamp="1639488360124" />
+    <state width="428" height="438" key="DebuggerActiveHint" timestamp="1639488329089">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="428" height="438" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1639488329089" />
     <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1637409910159">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="421" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1637409910159" />
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
-    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
-    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
-    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
+    <state width="1238" height="175" key="GridCell.Tab.1.bottom" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
-    <state width="1238" height="192" key="GridCell.Tab.1.center" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
+    <state width="1238" height="175" key="GridCell.Tab.1.center" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
-    <state width="1238" height="192" key="GridCell.Tab.1.left" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
+    <state width="1238" height="175" key="GridCell.Tab.1.left" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
-    <state width="1238" height="192" key="GridCell.Tab.1.right" timestamp="1630939808718">
+    <state width="1238" height="175" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
+    <state width="1238" height="175" key="GridCell.Tab.1.right" timestamp="1639488921366">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1630939808718" />
+    <state width="1238" height="175" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1639488921366" />
     <state x="257" y="46" key="SettingsEditor" timestamp="1639310327659">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="257" y="46" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1639310327659" />
-    <state x="276" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1637409168094">
+    <state x="276" y="203" key="com.intellij.ide.util.TipDialog" timestamp="1639746498400">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="276" y="203" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1637409168094" />
-    <state x="321" y="112" width="641" height="534" key="find.popup" timestamp="1637476746637">
+    <state x="276" y="203" key="com.intellij.ide.util.TipDialog/0.0.1280.760@0.0.1280.760" timestamp="1639746498400" />
+    <state x="321" y="112" width="641" height="534" key="find.popup" timestamp="1639746768356">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="321" y="112" width="641" height="534" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1637476746637" />
+    <state x="321" y="112" width="641" height="534" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1639746768356" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,6 +319,11 @@
           <url>file://$PROJECT_DIR$/src/Test2.java</url>
           <line>29</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode1654.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LeetCode0076.java</url>
