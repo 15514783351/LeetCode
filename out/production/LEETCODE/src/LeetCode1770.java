@@ -11,8 +11,8 @@ public class LeetCode1770 {
     public int maximumScore(int[] nums, int[] multipliers) {
         int left = 0;
         int right = nums.length - 1;
-        helper(nums, multipliers, 1, left, right, -1, 0 + nums[right] * multipliers[0]);
-        helper(nums, multipliers, 1, left, right, 1, 0 + nums[left] * multipliers[0]);
+        helper(nums, multipliers, 0, left, right, -1, 0);
+        helper(nums, multipliers, 0, left, right, 1, 0);
         return score;
     }
 
@@ -24,20 +24,21 @@ public class LeetCode1770 {
             return;
         }
         if (direction == -1) {
-            s = s + nums[right - 1] * multipliers[index];
+            s = s + nums[right] * multipliers[index];
             helper(nums, multipliers, index + 1, left, right - 1, -1, s);
-            helper(nums, multipliers, index + 1, left + 1, right, 1, s);
+            helper(nums, multipliers, index + 1, left, right, 1, s);
         } else if (direction == 1) {
-            s = s + nums[left + 1] * multipliers[index];
-            helper(nums, multipliers, index + 1, left, right - 1, -1, s);
+            s = s + nums[left] * multipliers[index];
             helper(nums, multipliers, index + 1, left + 1, right, 1, s);
+            helper(nums, multipliers, index + 1, left, right, -1, s);
+
         }
 
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4};
-        int[] multiplies = {3};
+        int[] nums = {-5, -3, -3, -2, 7, 1};
+        int[] multiplies = {-10, -5, 3, 4, 6};
         LeetCode1770 leetCode1770 = new LeetCode1770();
         int score = leetCode1770.maximumScore(nums, multiplies);
         System.out.println(score);
